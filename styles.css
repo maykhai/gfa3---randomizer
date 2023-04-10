@@ -1,0 +1,73 @@
+
+body {
+	margin: 200px;
+    margin-bottom: 200;
+	background-image: url("hogwarts.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: white;
+}
+h1 {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+ 	transform: translateX(-50%)
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd;
+    
+  }
+  
+  .container .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ddd;
+    color: #444;
+  }
+  
+ 
+ #Gryffindor {
+    background-color: #7f0909;
+    color: #fff;
+    padding: 30;
+  }
+  
+  
+ #Ravenclaw {
+    background-color: #222f5b;
+    color: #fff;
+    padding: 30;
+  }
+  
+ #Slytherin {
+    background-color: #0a472a;
+    color: #fff;
+    padding: 30;
+  }
+
+  #Gryffindor, #Ravenclaw, #Slytherin{
+    padding-top: 60px;
+    color: white;
+}
+
